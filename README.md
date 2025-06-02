@@ -69,3 +69,14 @@ test: /path/to/hard_hat_workers/test/images
 
 nc: 3
 names: ['head', 'helmet', 'person']  # 필요 시 5개 클래스로 수정 가능
+```
+
+---
+
+## ⚙️ 사전설정 코드
+```
+pip install opencv-python-headless torch torchvision numpy
+git clone https://github.com/ultralytics/yolov5
+cd yolov5
+pip install -r requirements.txt
+```
