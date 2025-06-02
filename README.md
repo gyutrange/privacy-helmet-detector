@@ -80,3 +80,11 @@ git clone https://github.com/ultralytics/yolov5
 cd yolov5
 pip install -r requirements.txt
 ```
+
+## ⚙️ 학습코드 예시
+```
+python train.py --img 640 --batch 16 --epochs 30 \
+  --data ../dataset/data.yaml \
+  --weights yolov5s.pt \
+  --name helmet_detector
+```
